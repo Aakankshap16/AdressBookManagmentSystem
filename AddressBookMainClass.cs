@@ -9,13 +9,13 @@ namespace AdressBookSystem
         public void AddDetails()
         {
             Console.WriteLine("Enter First Name: ");
-            obj.firstname = Console.ReadLine();
+            obj.firstName = Console.ReadLine();
 
             Console.WriteLine("Enter Last name: ");
-            obj.lastname = Console.ReadLine();
+            obj.lastName = Console.ReadLine();
 
             Console.WriteLine("Enter Your MobileNumber: ");
-            obj.mobilenumber = Console.ReadLine();
+            obj.mobileNumber = Console.ReadLine();
 
             Console.WriteLine("Enter Your Address: ");
             obj.address = Console.ReadLine();
@@ -58,7 +58,7 @@ namespace AdressBookSystem
                     {
                         Console.WriteLine("Please Enter the new value:");
                         string value = Console.ReadLine();
-                        String firstname = value;
+                        String firstName = value;
                         Console.WriteLine("First Name updated...");
                         break;
                     }
@@ -66,7 +66,7 @@ namespace AdressBookSystem
                     {
                         Console.WriteLine("Please Enter the new value:");
                         string value = Console.ReadLine();
-                        String lastname = value;
+                        String lastName = value;
                         Console.WriteLine("Last name updated...");
                         break;
                     }
@@ -74,7 +74,7 @@ namespace AdressBookSystem
                     {
                         Console.WriteLine("Please Enter the new value:");
                         string value = Console.ReadLine();
-                        String mobilenumber = value;
+                        String mobileNumber = value;
                         Console.WriteLine(" Mobile No updated...");
                         break;
                     }
