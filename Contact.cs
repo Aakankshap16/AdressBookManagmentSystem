@@ -8,11 +8,21 @@ namespace AdressBookSystem
 {
    public class Contact
     {
-        public String firstname, lastname, mobilenumber, address, city, zip, state, email;
+        public string firstName;
+        public string lastName;
+        public string mobileNumber;
+        public string address;
+        public string city;
+        public string state;
+        public string zip;
+        public string email;
+
         public override string ToString()
         {
-            return $"First Name: {firstname}, Last Name: {lastname}, Mobile Number: {mobilenumber}, Address: {address}, City: {city}, State: {state}, Zip: {zip}, Email: {email}";
+            return $"Name: {firstName} {lastName}\nMobile Number: {mobileNumber}\nAddress: {address}\nCity: {city}\nState: {state}\nZip: {zip}\nEmail: {email}\n";
         }
-
     }
+
+
+}
 }
