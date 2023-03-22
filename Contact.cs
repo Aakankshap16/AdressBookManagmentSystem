@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace AdressBookSystem
 {
-    internal class Contact
+   
+        public class Contact
     {
+        public string firstName;
+        public string lastName;
+        public string mobileNumber;
+        public string address;
+        public string city;
+        public string state;
+        public string zip;
+        public string email;
+
     }
 }
