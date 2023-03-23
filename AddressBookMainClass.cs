@@ -155,6 +155,7 @@
 
         foreach (var change in con)
         {
+                Console.WriteLine("The Details you stored in adress book:");
             Console.WriteLine(change.ToString());
         }
 
@@ -191,6 +192,7 @@
                             case 1:
                                 {
                                     person.EditContact();
+                                    person.DisplayContact();
                                     flag = false;
                                     break;
 
